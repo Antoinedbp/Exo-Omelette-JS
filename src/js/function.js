@@ -60,7 +60,7 @@ export let histoire = () => {
     // Chef vérifie ses ingrédients dans son bol et les coupe si nécessaire
     bol.contenu.forEach(ingredient => {
         if(ingredient.etat == "entier"){
-            chef.couper(ingredient);
+            chef.couper(ingredient, couteau);
         }
     });
 

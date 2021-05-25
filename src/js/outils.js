@@ -13,7 +13,7 @@ let poele = {
     cuire (ingredient){
             ingredient.etat = "cuit";
             setTimeout(function(){
-                console.log(`${ingredient.nom} est cuit !`);
+                console.log(`L'${ingredient.nom} est cuite !`);
             }, 4000)
     }
 };
